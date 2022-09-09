@@ -17,8 +17,8 @@ import Foundation
 class ViewController: UIViewController {
     
     private var authorization: GTMAppAuthFetcherAuthorization?
-    private let clientID = "282266739203-hq56c1hastvj805od2e0pncrbo8cpf06.apps.googleusercontent.com"
-    private let iOSUrlScheme = "com.googleusercontent.apps.282266739203-hq56c1hastvj805od2e0pncrbo8cpf06"
+    private let clientID = ""
+    private let iOSUrlScheme = ""
     typealias showAuthorizationDialogCallBack = ((Error?) -> Void)
     var requests = [VNRequest]()
     var resultingText = ""
